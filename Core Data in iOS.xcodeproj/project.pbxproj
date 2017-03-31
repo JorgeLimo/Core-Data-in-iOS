@@ -13,9 +13,16 @@
 		844C14681E8DDC5B0023B787 /* Core_Data_in_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 844C14661E8DDC5B0023B787 /* Core_Data_in_iOS.xcdatamodeld */; };
 		844C146A1E8DDC5B0023B787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844C14691E8DDC5B0023B787 /* Assets.xcassets */; };
 		844C146D1E8DDC5B0023B787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844C146B1E8DDC5B0023B787 /* LaunchScreen.storyboard */; };
+		844C14751E8DDE710023B787 /* PublicacionWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C14741E8DDE710023B787 /* PublicacionWebService.swift */; };
+		844C14781E8DDEC20023B787 /* publicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C14771E8DDEC20023B787 /* publicacion.swift */; };
+		844C147B1E8DE1410023B787 /* PublicacionCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C147A1E8DE1410023B787 /* PublicacionCelda.swift */; };
+		C9BD8DC73AC046239879E86C /* Pods_Core_Data_in_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF2887B1B67F7DE5323E69B /* Pods_Core_Data_in_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FF2887B1B67F7DE5323E69B /* Pods_Core_Data_in_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core_Data_in_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBA3BAD1FD84F6906D9B19E /* Pods-Core Data in iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core Data in iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Core Data in iOS/Pods-Core Data in iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7B277EF4E7C250963FF0A206 /* Pods-Core Data in iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core Data in iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Core Data in iOS/Pods-Core Data in iOS.release.xcconfig"; sourceTree = "<group>"; };
 		844C145C1E8DDC5B0023B787 /* Core Data in iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Data in iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844C145F1E8DDC5B0023B787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		844C14611E8DDC5B0023B787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,10 @@
 		844C14691E8DDC5B0023B787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844C146C1E8DDC5B0023B787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844C146E1E8DDC5B0023B787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844C14741E8DDE710023B787 /* PublicacionWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicacionWebService.swift; sourceTree = "<group>"; };
+		844C14771E8DDEC20023B787 /* publicacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = publicacion.swift; sourceTree = "<group>"; };
+		844C147A1E8DE1410023B787 /* PublicacionCelda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicacionCelda.swift; sourceTree = "<group>"; };
+		844C14811E8DE2260023B787 /* Core Data in iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Core Data in iOS-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BD8DC73AC046239879E86C /* Pods_Core_Data_in_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26433A28541BE09DBDF51415 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FF2887B1B67F7DE5323E69B /* Pods_Core_Data_in_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6401F42665DD369599635DEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EBA3BAD1FD84F6906D9B19E /* Pods-Core Data in iOS.debug.xcconfig */,
+				7B277EF4E7C250963FF0A206 /* Pods-Core Data in iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		844C14531E8DDC5A0023B787 = {
 			isa = PBXGroup;
 			children = (
 				844C145E1E8DDC5B0023B787 /* Core Data in iOS */,
 				844C145D1E8DDC5B0023B787 /* Products */,
+				6401F42665DD369599635DEC /* Pods */,
+				26433A28541BE09DBDF51415 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,51 @@
 		844C145E1E8DDC5B0023B787 /* Core Data in iOS */ = {
 			isa = PBXGroup;
 			children = (
+				844C147D1E8DE14B0023B787 /* controladores */,
+				844C147C1E8DE1440023B787 /* celdas */,
+				844C14791E8DDECC0023B787 /* entidades */,
+				844C14761E8DDE820023B787 /* consumo web */,
 				844C145F1E8DDC5B0023B787 /* AppDelegate.swift */,
-				844C14611E8DDC5B0023B787 /* ViewController.swift */,
 				844C14631E8DDC5B0023B787 /* Main.storyboard */,
 				844C14691E8DDC5B0023B787 /* Assets.xcassets */,
 				844C146B1E8DDC5B0023B787 /* LaunchScreen.storyboard */,
 				844C146E1E8DDC5B0023B787 /* Info.plist */,
 				844C14661E8DDC5B0023B787 /* Core_Data_in_iOS.xcdatamodeld */,
+				844C14811E8DE2260023B787 /* Core Data in iOS-Bridging-Header.h */,
 			);
 			path = "Core Data in iOS";
+			sourceTree = "<group>";
+		};
+		844C14761E8DDE820023B787 /* consumo web */ = {
+			isa = PBXGroup;
+			children = (
+				844C14741E8DDE710023B787 /* PublicacionWebService.swift */,
+			);
+			name = "consumo web";
+			sourceTree = "<group>";
+		};
+		844C14791E8DDECC0023B787 /* entidades */ = {
+			isa = PBXGroup;
+			children = (
+				844C14771E8DDEC20023B787 /* publicacion.swift */,
+			);
+			name = entidades;
+			sourceTree = "<group>";
+		};
+		844C147C1E8DE1440023B787 /* celdas */ = {
+			isa = PBXGroup;
+			children = (
+				844C147A1E8DE1410023B787 /* PublicacionCelda.swift */,
+			);
+			name = celdas;
+			sourceTree = "<group>";
+		};
+		844C147D1E8DE14B0023B787 /* controladores */ = {
+			isa = PBXGroup;
+			children = (
+				844C14611E8DDC5B0023B787 /* ViewController.swift */,
+			);
+			name = controladores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 844C14711E8DDC5B0023B787 /* Build configuration list for PBXNativeTarget "Core Data in iOS" */;
 			buildPhases = (
+				45BD60495B0CF997E83E1A15 /* [CP] Check Pods Manifest.lock */,
 				844C14581E8DDC5B0023B787 /* Sources */,
 				844C14591E8DDC5B0023B787 /* Frameworks */,
 				844C145A1E8DDC5B0023B787 /* Resources */,
+				29CD8EB1824FD2ADF991D5C1 /* [CP] Embed Pods Frameworks */,
+				2F191A08D7E6A190EC470A3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +170,7 @@
 					844C145B1E8DDC5B0023B787 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = P9PVR449G4;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -135,13 +206,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29CD8EB1824FD2ADF991D5C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Core Data in iOS/Pods-Core Data in iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F191A08D7E6A190EC470A3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Core Data in iOS/Pods-Core Data in iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45BD60495B0CF997E83E1A15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		844C14581E8DDC5B0023B787 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				844C14621E8DDC5B0023B787 /* ViewController.swift in Sources */,
+				844C147B1E8DE1410023B787 /* PublicacionCelda.swift in Sources */,
 				844C14601E8DDC5B0023B787 /* AppDelegate.swift in Sources */,
+				844C14781E8DDEC20023B787 /* publicacion.swift in Sources */,
+				844C14751E8DDE710023B787 /* PublicacionWebService.swift in Sources */,
 				844C14681E8DDC5B0023B787 /* Core_Data_in_iOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,26 +385,33 @@
 		};
 		844C14721E8DDC5B0023B787 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EBA3BAD1FD84F6906D9B19E /* Pods-Core Data in iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = P9PVR449G4;
 				INFOPLIST_FILE = "Core Data in iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pe.ourlimm.Core-Data-in-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Core Data in iOS/Core Data in iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		844C14731E8DDC5B0023B787 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B277EF4E7C250963FF0A206 /* Pods-Core Data in iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = P9PVR449G4;
 				INFOPLIST_FILE = "Core Data in iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pe.ourlimm.Core-Data-in-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Core Data in iOS/Core Data in iOS-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -306,6 +435,7 @@
 				844C14731E8DDC5B0023B787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
